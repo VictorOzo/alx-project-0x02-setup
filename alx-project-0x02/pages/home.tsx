@@ -1,13 +1,21 @@
-
+// pages/home.tsx
 import React from "react";
+import Card from "../components/common/Card";
 
-const home = () => {
+const Home: React.FC = () => {
   return (
     <div>
-      
-      <h1>Home Page</h1>
+      <Card title="Welcome" content="This is a reusable Card component." />
+      <Card
+        title="React + TypeScript"
+        content="Build scalable and maintainable UIs with React and TypeScript."
+      />
+      <Card
+        title="Dynamic Props"
+        content="Customize your components using props."
+      />
     </div>
   );
 };
 
-export default home;
+export default Home;
