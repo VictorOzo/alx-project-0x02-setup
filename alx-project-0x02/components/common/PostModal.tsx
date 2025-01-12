@@ -17,7 +17,7 @@ const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSave }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <form className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="bg-white rounded-lg shadow-lg w-96 p-6">
         <h2 className="text-lg font-bold mb-4 text-black">Add New Post</h2>
         <input
@@ -46,7 +46,7 @@ const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSave }) => {
           </button>
         </div>
       </div>
-    </div>
+    </form>
   );
 };
 
