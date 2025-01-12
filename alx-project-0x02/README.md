@@ -1,1 +1,1 @@
-# Next.js Project Setup and Basic.
+# Next.js Project Setup and Basics
